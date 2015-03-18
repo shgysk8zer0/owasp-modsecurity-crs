@@ -52,3 +52,16 @@ $ ln -s $(pwd)/base_rules/* activated_rules/
 $ chmod -R g-w . && chmod -R o-w .
 $ sudo chown -R crs root
 ```
+1. Include in Apache configuration file
+```apache
+# Where "conf" is when donloaded/cloned to in step 2
+<IfModule security2_module>
+	Include conf/crs/modsecurity_crs_10_setup.conf
+	Include conf/crs/activated_rules/*.conf
+</IfModule>
+```
+1. Restart web server
+```shell
+$ sudo service apache2 restart
+# Or whichever method applies to you
+```
