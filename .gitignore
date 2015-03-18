@@ -1,2 +1,7 @@
 *.swp
 *.swo
+~*
+*.bak
+/activated_rules/*
+!/activated_rules/README
+/modsecurity_crs_10_setup.conf
