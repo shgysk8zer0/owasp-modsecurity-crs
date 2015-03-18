@@ -38,6 +38,10 @@ $ git clone git://github.com/SpiderLabs/owasp-modsecurity-crs.git crs
 ```shell
 $ cd crs
 ```
+1. Copy the default config file
+```shell
+$ cp modsecurity_crs_10_setup.conf.example modsecurity_crs_10_setup.conf
+```
 1. Symlink any rules into <samp>activated_rules</samp>
 ```shell
 # Enables all base rules
