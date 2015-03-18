@@ -14,7 +14,7 @@ http://www.apache.org/licenses/LICENSE-2.0.txt
 For more information refer to the [OWASP Core Rule Set Project page](http://www.owasp.org/index.php/Category:OWASP_ModSecurity_Core_Rule_Set_Project)
 
 Core Rules Mail-list -
-* [Suscribe](https://lists.owasp.org/mailman/listinfo/owasp-modsecurity-core-rule-set)  
+* [Subscribe](https://lists.owasp.org/mailman/listinfo/owasp-modsecurity-core-rule-set)  
 * [Archive](https://lists.owasp.org/pipermail/owasp-modsecurity-core-rule-set/)
 
 ## Installation
