@@ -2,6 +2,7 @@
 *.swo
 ~*
 *.bak
+*.patch
 /activated_rules/*
 !/activated_rules/README
 /modsecurity_crs_10_setup.conf
